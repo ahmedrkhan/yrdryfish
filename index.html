@@ -14,6 +14,7 @@
 
 </head>
 
+
 <body>
     <h1>YR Dry Fish</h1>
     <nav>
@@ -35,33 +36,21 @@
             <center>Review</center>
         </h2>
     </div>
-
-
-    <section class="Review-main" id="Review">
-
-        <div class="Review">
-            <div class="imagess"><img src="img/review1.png" alt=""></div>
+    <section class="slider-container">
+        <div class="slider" id="slider">
+            <img src="img/review1.png" alt="Review 1" class="slide">
+            <img src="img/review2.png" alt="Review 2" class="slide">
+            <img src="img/review3.png" alt="Review 3" class="slide">
+            <img src="img/review4.png" alt="Review 3" class="slide">
+            <img src="img/review5.png" alt="Review 3" class="slide">
+            <img src="img/review6.png" alt="Review 3" class="slide">
         </div>
-
-        <div class="Review">
-            <div class="imagess"><img src="img/review2.png" alt=""></div>
-        </div>
-
-        <div class="Review">
-            <div class="imagess"><img src="img/review3.png" alt=""> </div>
-        </div>
-
-        <div class="Review">
-            <div class="imagess"><img src="img/review4.png" alt=""></div>
-        </div>
-
-        <div class="Review">
-            <div class="imagess"><img src="img/review5.png" alt=""></div>
-        </div>
-        <div class="Review">
-            <div class="imagess"><img src="img/review6.png" alt=""></div>
-        </div>
+        <button class="prev" onclick="prevSlide()">❮</button>
+        <button class="next" onclick="nextSlide()">❯</button>
     </section>
+
+
+
 
     <div class="headings">
         <h2>
@@ -172,6 +161,35 @@
         &copy; yrdryfish. All Rights Reserved.
     </footer>
 
+
+    <script>
+        let slideIndex = 0;
+        const slides = document.querySelectorAll(".slide");
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.style.display = i === index ? "block" : "none";
+            });
+        }
+
+        function nextSlide() {
+            slideIndex = (slideIndex + 1) % slides.length;
+            showSlide(slideIndex);
+        }
+
+        function prevSlide() {
+            slideIndex = (slideIndex - 1 + slides.length) % slides.length;
+            showSlide(slideIndex);
+        }
+
+        function autoSlide() {
+            nextSlide();
+            setTimeout(autoSlide, 4000); // 4 seconds
+        }
+
+        showSlide(slideIndex);
+        autoSlide();
+    </script>
 
 </body>
 
