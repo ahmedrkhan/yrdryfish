@@ -60,7 +60,8 @@ nav a:hover {
 .Review-main,
 .Video-main,
 .Image-main {
-border-radius: 2px;    width: 100%;
+    border-radius: 2px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -128,7 +129,7 @@ section .Review img {
 .headings {
     padding: 10px;
     border-radius: 20px;
-    background-color: darkgoldenrod;
+    background-color: rgb(252, 252, 250);
     font-size: 30px;
     text-align: center;
 }
@@ -154,7 +155,8 @@ section .Review img {
     }
 
     .container {
-        width: 95%;
+        width: 50%;
+
     }
 
     video,
@@ -219,14 +221,23 @@ section .Review img {
 
 }
 
-.online a{
+.online a {
     color: rgba(0, 212, 249, 0.664);
     text-decoration: none;
     font-size: 2rem;
 }
-.online a:hover{
+
+.online a:hover {
     color: rgb(39, 103, 158);
     text-decoration: none;
     font-size: 2rem;
     font-size: 2.5rem;
+}
+
+#icon a:hover {
+    box-shadow: lightgray;
+    background-color: rgb(247, 249, 248);
+    height: 200px;
+    width: 200px;
+
 }
