@@ -85,14 +85,14 @@ nav a:hover {
 /* Cards (Reusable style) */
 .Review,
 .Video,
-.Image {
+.Image,.online {
     background-color: #f5f7f2;
-    padding: 20px;
+    padding: 10px;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(197, 189, 189, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -143,10 +143,14 @@ section .Review img {
     }
 
     nav a {
+        height: 18px;
         display: block;
+        justify-content: flex-start;
+        align-items: flex-start;
         margin: 10px 0;
-        font-size: 18px;
-    }
+        font-size: 16px;
+        text-align: center;
+  }
 
     .Review,
     .Video,
@@ -267,4 +271,43 @@ footer {
 
 .whatsapp-float:hover {
     background-color: #1ebd58;
+}
+
+
+.slider-container {
+    position: relative;
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.slider .slide {
+    width: 100%;
+    display: none;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #ddd;
 }
