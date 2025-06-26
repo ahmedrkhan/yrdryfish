@@ -241,3 +241,30 @@ section .Review img {
     width: 200px;
 
 }
+
+footer {
+    background-color: #0a4275;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    z-index: 100;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-float:hover {
+    background-color: #1ebd58;
+}
