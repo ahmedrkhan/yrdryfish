@@ -7,6 +7,7 @@
     font-family: "PT Serif", serif;
     font-weight: 600;
     font-style: normal;
+    scroll-behavior: smooth;
 }
 
 /* Header / Banner */
@@ -71,7 +72,7 @@ nav a:hover {
 
 /* Section specific background colors */
 .Review-main {
-    background-color: lightsteelblue;
+    background-color: rgb(81, 179, 201);
 }
 
 .Video-main {
@@ -85,7 +86,7 @@ nav a:hover {
 /* Cards (Reusable style) */
 .Review,
 .Video,
-.Image,.online {
+.Image, .online {
     background-color: #f5f7f2;
     padding: 10px;
     border-radius: 2px;
@@ -138,8 +139,27 @@ section .Review img {
 
 /* Small Screens: Mobile (≤ 600px) */
 @media screen and (max-width: 600px) {
+    * {
+        scroll-behavior: smooth;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
     h1 {
-        font-size: 30px;
+        font-size: 2rem;
+    }
+
+
+    nav {
+        margin: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 0.3rem;
+        gap: 8px;
+        position: sticky;
+        margin-bottom: 2px;
+
+
     }
 
     nav a {
@@ -150,12 +170,31 @@ section .Review img {
         margin: 10px 0;
         font-size: 16px;
         text-align: center;
-  }
+    }
+
+    .online {
+        text-decoration: none;
+        margin: 15px;
+        border-radius: 5px;
+        padding: 50px 20px;
+        margin-top: 20px;
+        text-align: center;
+        background-color: #ffffff;
+        color: rgb(47, 126, 196);
+        text-decoration: none;
+        font-size: 1rem;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+
+    }
+
 
     .Review,
     .Video,
     .Image {
-        width: 90%;
+        margin: 5px;
+        width: 80%;
     }
 
     .container {
@@ -165,7 +204,7 @@ section .Review img {
 
     video,
     img {
-        width: 100% !important;
+        background-size: auto;
         height: auto !important;
     }
 }
@@ -186,6 +225,11 @@ section .Review img {
 
     .container {
         width: 90%;
+    }
+
+    .online {
+        height: 350PX;
+
     }
 }
 
@@ -221,7 +265,7 @@ section .Review img {
     font-size: 1rem;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 350px;
 
 }
 
