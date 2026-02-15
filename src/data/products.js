@@ -12,7 +12,7 @@ const products = [
       `${import.meta.env.BASE_URL}images/mandeli.png`,
       `${import.meta.env.BASE_URL}images/yellow-jawala.png`
     ],
-    video: `${import.meta.env.BASE_URL}jawla.mp4`
+    video: `${import.meta.env.BASE_URL}videos/jawla.mp4`
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const products = [
       `${import.meta.env.BASE_URL}images/mandeli.png`,
       `${import.meta.env.BASE_URL}images/yellow-jawala.png`
     ],
-    video: `${import.meta.env.BASE_URL}kardi.mp4`
+    video: `${import.meta.env.BASE_URL}videos/kardi.mp4`
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const products = [
       `${import.meta.env.BASE_URL}images/mandeli.png`,
       `${import.meta.env.BASE_URL}images/yellow-jawala.png`
     ],
-    video: `${import.meta.env.BASE_URL}wakati.mp4`
+    video: `${import.meta.env.BASE_URL}videos/wakati.mp4`
 
   },
   {
@@ -59,7 +59,7 @@ const products = [
       `${import.meta.env.BASE_URL}images/yellow-jawala.png`
     ]
     ,
-    video: `${import.meta.env.BASE_URL}kardi.mp4`
+    video: `${import.meta.env.BASE_URL}videos/kardi.mp4`
   },
   {
     id: 5,
@@ -74,7 +74,7 @@ const products = [
       `${import.meta.env.BASE_URL}images/mandeli.png`,
       `${import.meta.env.BASE_URL}images/yellow-jawala.png`
     ],
-    video: `${import.meta.env.BASE_URL}surmai-piece.mp4`
+    video: `${import.meta.env.BASE_URL}videossurmai-piece.mp4`
   },
   {
     id: 6,
@@ -90,7 +90,7 @@ const products = [
       `${import.meta.env.BASE_URL}images/yellow-jawala.png`
     ]
     ,
-    video: `${import.meta.env.BASE_URL}bangda.mp4`
+    video: `${import.meta.env.BASE_URL}videos/bangda.mp4`
   },
 ];
 
