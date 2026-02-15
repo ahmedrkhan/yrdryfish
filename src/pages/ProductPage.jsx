@@ -1,22 +1,21 @@
 import { useParams } from "react-router-dom";
-import products from "../data/products";
+import { ProductContext } from "../context/ProductContext";
 import { useContext, useState } from "react";
 import { CartContext } from "../context/CartContext";
 import "../App.css";
-
 export default function ProductPage() {
   const { id } = useParams();
-  const product = products.find((p) => p.id === parseInt(id));
+  const { products } = useContext(ProductContext);
   const { addToCart } = useContext(CartContext);
+
+  const product = products.find((p) => p.id === parseInt(id));
 
   const [mainMedia, setMainMedia] = useState({
     type: "image",
-    src: product?.images?.[0],
+    src: product?.images?.[0] || "",
   });
 
-
   if (!product) return <p>Product not found</p>;
-
   return (
     <div className="product-page">
       <div>
