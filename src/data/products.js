@@ -9,9 +9,8 @@ const products = [
     description:
       "High-quality dry prawns, handpicked and naturally sun-dried for intense flavor. Perfect for curries or snacks.",
     images: [
-      "/images/mandeli.png",
-      "/images/yellow-jawala.png",
-      "/images/mandeli.png"
+      `${import.meta.env.BASE_URL}images/mandeli.png`,
+      `${import.meta.env.BASE_URL}images/yellow-jawala.png`
     ],
     video: "/hero-banner-video.mp4" // optional
   },
@@ -25,8 +24,8 @@ const products = [
     description:
       "Fresh small fish from Gujarat, ideal for light frying and traditional recipes.",
     images: [
-      "/images/gujaarta-bomil.png",
-      "/images/gujaarta-bomil2.png"
+      `${import.meta.env.BASE_URL}images/mandeli.png`,
+      `${import.meta.env.BASE_URL}images/yellow-jawala.png`
     ],
     video: "/videos/jawla.mp4" // optional
   },
@@ -40,9 +39,10 @@ const products = [
     description:
       "Premium large fish dried naturally, rich in protein and perfect for gourmet dishes.",
     images: [
-      "/images/mandeli.png",
-      "/images/mandeli2.png"
+      `${import.meta.env.BASE_URL}images/mandeli.png`,
+      `${import.meta.env.BASE_URL}images/yellow-jawala.png`
     ]
+
   },
   {
     id: 4,
@@ -54,9 +54,10 @@ const products = [
     description:
       "Sun-dried yellow jawala prawns with a rich taste and aromatic flavor. Excellent for special seafood recipes.",
     images: [
-      "/images/yellow-jawala.png",
-      "/images/yellow-jawala2.png"
-    ],
+      `${import.meta.env.BASE_URL}images/mandeli.png`,
+      `${import.meta.env.BASE_URL}images/yellow-jawala.png`
+    ]
+    ,
     video: "/videos/jawla.mp4" // optional
   },
   {
@@ -69,9 +70,10 @@ const products = [
     description:
       "Tender small fish from Gujarat, lightly salted and sun-dried for freshness.",
     images: [
-      "/images/gujaarta-bomil.png",
-      "/images/gujaarta-bomil3.png"
+      `${import.meta.env.BASE_URL}images/mandeli.png`,
+      `${import.meta.env.BASE_URL}images/yellow-jawala.png`
     ]
+
   },
   {
     id: 6,
@@ -83,9 +85,10 @@ const products = [
     description:
       "Fresh small fish from Gujarat, ideal for light frying and traditional recipes.",
     images: [
-      "/images/gujaarta-bomil.png",
-      "/images/gujaarta-bomil2.png"
-    ],
+      `${import.meta.env.BASE_URL}images/mandeli.png`,
+      `${import.meta.env.BASE_URL}images/yellow-jawala.png`
+    ]
+    ,
     video: "/videos/bangda.mp4" // optional
   },
 ];

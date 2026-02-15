@@ -19,6 +19,9 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/products/:id" element={<ProductPage />} /> {/* dynamic */}
+        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About />} />
+
 
       </Routes>
     </>
