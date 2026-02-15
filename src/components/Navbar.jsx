@@ -16,7 +16,7 @@ export default function Navbar() {
       {showBanner && (
         <div className="announcement-bar">
           <div className="scroll-text">
-            🚚 Online delivery available only in Mumbai. 
+            🚚 Online delivery available only in Mumbai.
             Outside Mumbai orders accepted only for bulk purchases.
           </div>
 
@@ -33,8 +33,8 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/products">Products</Link>
         <Link to="/cart">Cart ({totalItems})</Link>
-        <Link to="/about" className="about-link">About</Link>
-      </nav>
+        <a href="#about-section" className="about-link">About</a>
+        </nav>
     </>
   );
 }
