@@ -10,7 +10,7 @@ import ProductPage from "./pages/ProductPage"; // NEW
 
 function App() {
   return (
-    <Router>
+    <>
       <Navbar />
 
       <Routes>
@@ -21,7 +21,7 @@ function App() {
         <Route path="/products/:id" element={<ProductPage />} /> {/* dynamic */}
 
       </Routes>
-    </Router>
+    </>
   );
 }
 
