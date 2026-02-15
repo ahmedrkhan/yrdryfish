@@ -147,7 +147,7 @@ export default function Home() {
 
 
             <section className="about-section">
-                <Link to="/products">
+                <Link to="/about">
                     <div className="about-container">
                         <h2 className="about-title">About YRDRYFISH</h2>
 

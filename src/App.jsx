@@ -7,6 +7,8 @@ import Products from "./pages/Products";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import ProductPage from "./pages/ProductPage"; // NEW
+import About from "./pages/About";
+
 
 function App() {
   return (
@@ -20,8 +22,6 @@ function App() {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/products/:id" element={<ProductPage />} /> {/* dynamic */}
         <Route path="/about" element={<About />} />
-        <Route path="/about" element={<About />} />
-
 
       </Routes>
     </>
