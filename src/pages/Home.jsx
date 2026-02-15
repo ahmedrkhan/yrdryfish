@@ -147,23 +147,23 @@ export default function Home() {
 
 
             <section className="about-section" id="about-section">
-                <Link to="/about">
-                    <div className="about-container">
-                        <h2 className="about-title">About YRDRYFISH</h2>
 
-                        <p className="about-text">
-                            YRDRYFISH is committed to bringing you the finest quality dry fish directly from trusted suppliers.
-                            Our team carefully selects and processes each product to ensure maximum freshness, taste, and nutritional value.
-                            With fast delivery, secure payment options including COD and UPI, and a focus on customer satisfaction,
-                            we aim to make premium dry fish accessible to your kitchen with ease and convenience.
-                        </p>
+                <div className="about-container">
+                    <h2 className="about-title">About YRDRYFISH</h2>
 
-                        <p className="about-text">
-                            Founded with passion and a love for seafood, YRDRYFISH combines traditional drying methods with modern logistics
-                            to serve customers across India. Join our community of satisfied customers and experience quality you can trust.
-                        </p>
-                    </div>
-                </Link>
+                    <p className="about-text">
+                        YRDRYFISH is committed to bringing you the finest quality dry fish directly from trusted suppliers.
+                        Our team carefully selects and processes each product to ensure maximum freshness, taste, and nutritional value.
+                        With fast delivery, secure payment options including COD and UPI, and a focus on customer satisfaction,
+                        we aim to make premium dry fish accessible to your kitchen with ease and convenience.
+                    </p>
+
+                    <p className="about-text">
+                        Founded with passion and a love for seafood, YRDRYFISH combines traditional drying methods with modern logistics
+                        to serve customers across India. Join our community of satisfied customers and experience quality you can trust.
+                    </p>
+                </div>
+
             </section>
 
 
