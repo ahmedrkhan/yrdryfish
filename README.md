@@ -1,16 +1,24 @@
-# React + Vite
+https://ahmedrkhan.github.io/yrdryfish/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ 🐟 YR Dry Fish – Modern Seafood Branding Website
 
-Currently, two official plugins are available:
+📌 Overview
+YR Dry Fish is a modern, responsive landing page designed for a local dry fish business.  
+It focuses on clean UI, strong branding, and product presentation to attract customers online.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
+- Clean and minimal UI design
+- Responsive layout (mobile-friendly)
+- Product showcase section
+- Smooth hover effects and animations
+- Simple navigation for better user experience
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ 🎯 Purpose
+This project is built to:
+- Help small/local seafood businesses build an online presence
+- Replace traditional offline marketing with a digital storefront
+- Practice frontend UI/UX and layout design skills
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ 📷 Preview
+Live Demo: https://ahmedrkhan.github.io/yrdryfish/
